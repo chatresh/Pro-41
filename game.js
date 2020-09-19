@@ -10,11 +10,11 @@ var score = 0;
 var lives = 5;
 
 function preload() {
-    im_car_green = loadImage('assets/Car_Green.png');
-    im_car_red = loadImage('assets/Car_Red.png');
-    im_boom = loadImage('assets/boom.png');
-    im_heart = loadImage('assets/heart.png');
-    font = loadFont('assets/8-bit.ttf');
+    im_car_green = loadImage('Car_Green.png');
+    im_car_red = loadImage('Car_Red.png');
+    im_boom = loadImage('boom.png');
+    im_heart = loadImage('heart.png');
+    font = loadFont('8-bit.ttf');
 }
 
 function setup() {
